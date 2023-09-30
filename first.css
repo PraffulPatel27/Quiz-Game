@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    height: 120%;
+    width: 100%;
+    background-image: url(first_image.jpeg);
+    background-position: cover;
+    background-size: cover;
+    position: absolute;
+    overflow-x: hidden;
+}
+.text-box
+{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 57%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 63px;
+    text-shadow: 1px 1px 10px black;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 17px;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+   }
+
+   .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+
+  .hero-btn {
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  }
